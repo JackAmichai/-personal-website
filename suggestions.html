@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Jack - Suggestions</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <style>
+    .suggestion-box {
+      border: 2px dashed var(--primary-color);
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+    }
+    .suggestion-title {
+      color: var(--primary-color);
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .demo-card {
+        background: white;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        margin-top: 15px;
+    }
+    .skill-tag {
+        display: inline-block;
+        background: var(--sky-blue);
+        color: var(--prussian-blue);
+        padding: 5px 10px;
+        border-radius: 15px;
+        font-size: 0.85em;
+        margin: 2px;
+    }
+    .star-method strong {
+        color: var(--orange-peel);
+    }
+  </style>
+</head>
+
+<body class="sub_page">
+
+    <div class="hero_area">
+        <!-- header section strats -->
+        <header class="header_section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.png" alt="">
+                        <span>
+                            Jack
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="s-1"> </span>
+                        <span class="s-2"> </span>
+                        <span class="s-3"> </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                            <ul class="navbar-nav  ">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html"> About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="service.html"> Projects </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog.html"> READING </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end header section -->
+    </div>
+
+    <section class="layout_padding">
+        <div class="container">
+            <div class="heading_container">
+                <h2>Web Presence Suggestions</h2>
+            </div>
+            <p class="mt-4">
+                This page outlines specific suggestions to make your portfolio more effective for recruiters.
+                Recruiters often spend less than 10 seconds scanning a profile. The goal is to make your
+                <strong>skills</strong> and <strong>impact</strong> immediately visible.
+            </p>
+
+            <!-- Suggestion 1: Skills Matrix -->
+            <div class="suggestion-box">
+                <h4 class="suggestion-title">1. Visualize Your Skills</h4>
+                <p>
+                    Instead of hiding skills in paragraphs, use a "Skills Matrix" or tag cloud. This allows recruiters to verify your tech stack at a glance.
+                </p>
+                <div class="demo-card">
+                    <h5>Technical Skills</h5>
+                    <div>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Product Management</span>
+                        <span class="skill-tag">A/B Testing</span>
+                    </div>
+                    <h5 class="mt-3">Tools & Methodologies</h5>
+                    <div>
+                        <span class="skill-tag">Jira</span>
+                        <span class="skill-tag">Agile/Scrum</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Figma</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Suggestion 2: STAR Method -->
+            <div class="suggestion-box">
+                <h4 class="suggestion-title">2. Use the STAR Method for Projects</h4>
+                <p>
+                    Your current project links are minimal. Expand them into "Case Studies" using the STAR method (Situation, Task, Action, Result).
+                    Quantify your impact whenever possible.
+                </p>
+                <div class="demo-card">
+                    <h5>Example Project: Deep Q-Network Cart-Pole</h5>
+                    <p class="star-method"><strong>Situation:</strong> Needed to understand reinforcement learning concepts applied to control systems.</p>
+                    <p class="star-method"><strong>Task:</strong> Implement an agent capable of balancing a pole on a cart for 500+ frames.</p>
+                    <p class="star-method"><strong>Action:</strong> Built a Deep Q-Network (DQN) using PyTorch, implementing experience replay and target networks to stabilize training.</p>
+                    <p class="star-method"><strong>Result:</strong> Achieved optimal performance 20% faster than standard benchmarks; code used as a reference for peer learning.</p>
+                    <a href="#" class="btn btn-sm btn-primary mt-2">View Code on GitHub</a>
+                </div>
+            </div>
+
+            <!-- Suggestion 3: Testimonials -->
+            <div class="suggestion-box">
+                <h4 class="suggestion-title">3. Add Social Proof</h4>
+                <p>
+                    If you have recommendations on LinkedIn or from professors, feature 1-2 short quotes. It builds trust immediately.
+                </p>
+                <div class="demo-card">
+                    <blockquote class="blockquote">
+                        <p class="mb-0" style="font-size: 0.9rem; font-style: italic;">"Jack brings a unique perspective by combining psychological insights with technical rigor. He was instrumental in our data analysis project..."</p>
+                        <footer class="blockquote-footer mt-2">Former Manager / Professor Name</footer>
+                    </blockquote>
+                </div>
+            </div>
+
+            <!-- Suggestion 4: Call to Action -->
+            <div class="suggestion-box">
+                <h4 class="suggestion-title">4. Optimize Call-to-Actions (CTAs)</h4>
+                <p>
+                    Ensure your Resume/CV is downloadable from the navigation bar or a sticky button, not just buried in the "About" text.
+                </p>
+                <div class="demo-card text-center">
+                    <a href="Jack CV.pdf" class="btn btn-warning btn-lg" style="color: white; font-weight: bold;">Download Resume</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- info section -->
+    <section class="info_section layout_padding">
+        <div class="container">
+            <div class="info_contact">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="">
+                            <img src="images/location-white.png" alt="">
+                            <span>
+                                Tel Aviv, Israel
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <a href="https://www.linkedin.com/in/iris-eting-786a89222/" target="_blank">
+
+                                <img src="images/linkedin.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <a href="https://www.instagram.com/iriseting?igsh=YnZjaWdxd2phcHAw" target="_blank">
+                                <img src="images/instagram.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="">
+                            <img src="images/envelope-white.png" alt="">
+                            <span>
+                                Contact Me
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end info section -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+</html>
